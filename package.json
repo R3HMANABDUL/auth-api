@@ -1,0 +1,38 @@
+{
+  "name": "auth-api",
+  "version": "1.0.0",
+  "description": "This is Auth Api to Authanticate the User",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R3HMANABDUL/auth-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/R3HMANABDUL/auth-api/issues"
+  },
+  "homepage": "https://github.com/R3HMANABDUL/auth-api#readme",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.22.0",
+    "bcryptjs": "^3.0.2",
+    "connect-mongoose": "^0.0.2",
+    "cookie-parser": "^1.4.7",
+    "csurf": "^1.11.0",
+    "dotenv": "^17.2.1",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.0.1",
+    "express-session": "^1.18.2",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose-paginate-v2": "^1.9.1",
+    "multer": "^2.0.2",
+    "nodemon": "^3.1.10"
+  }
+}
